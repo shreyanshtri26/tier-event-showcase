@@ -2,11 +2,15 @@
 
 A responsive web application that displays events based on user membership tiers using Next.js 14, Clerk authentication, and Supabase database.
 
+## Live Demo
+
+[https://tier-event-showcase-9f7w.vercel.app/](https://tier-event-showcase-9f7w.vercel.app/)
+
 ## Features
 
-- 🔐 **Authentication**: Secure login/signup with Clerk
+- � **Authentication**: Secure login/signup with Clerk
 - 🎯 **Tier-Based Access**: Events filtered by user tier (Free, Silver, Gold, Platinum)
-- 📱 **Responsive Design**: Mobile-first design with Tailwind CSS
+- �📱 **Responsive Design**: Mobile-first design with Tailwind CSS
 - 🗄️ **Database**: PostgreSQL with Supabase
 - ⚡ **Performance**: Built with Next.js 14 App Router
 - 🔒 **Security**: Row-level security with Supabase RLS
@@ -156,5 +160,3 @@ SUPABASE_SERVICE_ROLE_KEY=
 - ✅ Row-level security implementation
 - ✅ Mobile-responsive design
 - ✅ Accessible UI components
-
-
