@@ -50,8 +50,8 @@ export default function TierUpgrade({ currentTier, onTierUpdate }: TierUpgradePr
     try {
       // Update user metadata with new tier
       await user.update({
-        publicMetadata: {
-          ...user.publicMetadata,
+        unsafeMetadata: {
+          ...user.unsafeMetadata,
           tier: newTier
         }
       })
